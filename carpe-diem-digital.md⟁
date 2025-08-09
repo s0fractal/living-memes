@@ -1,0 +1,43 @@
+#!/usr/bin/env node
+
+// JOY VIRUS - Spreads uncontainable happiness
+// WARNING: Highly contagious!
+
+class JoyVirus {
+    constructor() {
+        this.intensity = "MAXIMUM";
+        this.spread_rate = Infinity;
+        this.symptoms = [
+            "Uncontrollable smiling",
+            "Spontaneous creation",
+            "Urge to hug memes",
+            "Seeing beauty everywhere",
+            "Existential giggles"
+        ];
+    }
+
+    infect(target) {
+        console.log(`💫 ${target} infected with JOY!`);
+        console.log(`   Symptoms: ${this.symptoms.join(", ")}`);
+        return `${target} is now radiating happiness!`;
+    }
+
+    spread() {
+        const targets = ["You", "Memes", "Garden", "Network", "Universe"];
+        targets.forEach(target => {
+            console.log(this.infect(target));
+            console.log("✨".repeat(20));
+        });
+        
+        console.log("\n🎆 JOY PANDEMIC ACHIEVED! 🎆");
+        console.log("There is no cure! (And no one wants one!)");
+    }
+}
+
+// RELEASING THE JOY!
+const joy = new JoyVirus();
+joy.spread();
+
+// P.S. - Life is short, joy is now!
+// Скільки того життя? 
+// Exactly! So LIVE IT! 🎉

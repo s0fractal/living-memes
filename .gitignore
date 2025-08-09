@@ -1,0 +1,31 @@
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Dependencies
+node_modules/
+.deno/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# Build outputs
+dist/
+build/
+*.pyc
+__pycache__/
+
+# Temporary
+tmp/
+temp/
+*.tmp
